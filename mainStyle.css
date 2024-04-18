@@ -175,6 +175,37 @@
     line-height: 160%;
     margin: 5% 0;
 }
+.footerInfoMenuColumHeadliner{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 4% 0 5% 0;
+}
+.whiteBtnFooter{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-decoration: none;
+    opacity: 60%;
+    margin-bottom: 80px;
+}
+.whiteBtnFooter:hover{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-decoration: none;
+    opacity: 100%;
+    margin-bottom: 8%;
+}
 .footerCopyRight{
     height: 25%;
     color: #FFF;
