@@ -148,7 +148,7 @@
 .footerInfoMenuColum{
     height: 85%;
     width: 20%;
-    margin: 2% 2.5% 0% 2.5%;
+    margin: 2% 5% 0% 2.5%;
     /*background-color: red;*/
 
 }
@@ -173,7 +173,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
-    margin: 5% 0;
+    margin: 0 0 6% 0;
 }
 .footerInfoMenuColumHeadliner{
     color: #FFF;
@@ -190,10 +190,9 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%;
+    line-height: 200%;
     text-decoration: none;
     opacity: 60%;
-    margin-bottom: 80px;
 }
 .whiteBtnFooter:hover{
     color: #FFF;
@@ -201,11 +200,10 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%;
+    line-height: 200%;
     text-decoration: none;
     opacity: 100%;
-    margin-bottom: 8%;
-}
+    }
 .footerCopyRight{
     height: 25%;
     color: #FFF;
@@ -219,4 +217,15 @@
     justify-content: center;
     align-items: center;
     opacity: 0.7;
+}
+.mediaIco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mediaIcoForHover{
+    opacity: 0.6;
+}
+.mediaIcoForHover:hover{
+    opacity: 1;
 }
