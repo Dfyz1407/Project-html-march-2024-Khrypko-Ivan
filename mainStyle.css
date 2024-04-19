@@ -6,12 +6,6 @@
 /*    margin: 0 0;*/
 /*    background-color: gray;*/
 /*}*/
-.test{
-    height: 50vh;
-    background-color: violet;
-    border: 2px solid;
-    border-color: black;
-}
 /*----------header-----------------------*/
 .header{
     height: 71.2vh;
@@ -111,17 +105,175 @@
 /*----------section1-----------------------*/
 .section1{
     height: 200vh;
-    background-color: blue;
-    border: 2px solid;
-    border-color: black;
 }
 .section1Offer{
     height: 44%;
-    background-color: pink;
+}
+.section1OfferText{
+    height: 38%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+.section1OfferTextH2{
+    color: #000;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 6px;
+    margin: 3% 0 0 10%;
+}
+.section1OfferTextP{
+    color: #000;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin: 2% 0 0 10%;
+}
+.section1OfferCards{
+    height: 62%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.section1Card{
+    width: 22%;
+    height: 100%;
+
+    margin: 2px;
+    text-decoration: none;
+}
+.section1CardImage{
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+#section1CardImage1{
+    background-image: url(images/Section1Card1.jpeg);
+}
+#section1CardImage2{
+    background-image: url(images/Section1Card2.png);
+}
+#section1CardImage3{
+    background-image: url(images/Section1Card3.png);
+}
+.section1CardText{
+
+}
+.section1Price{
+    color: #0C0D0C;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.section1ItemName{
+    color: #000;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    white-space: nowrap;
+}
+.section1ItemDesc{
+    color: #000;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
 }
 .section1Gallery{
     height: 56%;
-    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1GalleryMain{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.section1GalleryText{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section1GalleryTextH2{
+    color: #000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+.section1GalleryTextP{
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.7;
+    width: 53%;
+    margin-bottom: 2%;
+}
+.section1GalleryLoad{
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+    margin-top: 2%;
+}
+.section1GalleryFotoGrid{
+    height: 80%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.section1GalleryFotoGrid>div{
+    margin: 2%;
+    overflow: hidden;
+    position: relative;
+}
+.section1GalleryFotoGrid>div img{
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+#Foto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Foto2I{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+#Foto4I{
+    top: -10%;
+}
+#Foto5I{
+    bottom: -20%;
 }
 /*----------section2-----------------------*/
 .section2{
