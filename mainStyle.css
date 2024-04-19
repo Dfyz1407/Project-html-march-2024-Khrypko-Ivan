@@ -32,7 +32,7 @@
     justify-content: center;
     align-items:center;
     color: #FF4B32;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans" ,sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -40,7 +40,7 @@
 }
 .homeBtn{
     color: #FF4B32;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -49,7 +49,7 @@
 }
 .whiteBtn{
     color: #FFF;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -59,7 +59,7 @@
 }
 .whiteBtn:hover{
     color: #FFF;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -73,13 +73,12 @@
     margin-left: 9%;
     display: flex;
     flex-direction: column;
-    margin-top: 1%;
     scale: 0.95;
     margin-top: -1%;
 }
 .headerTextH1{
     color: #FFF;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", sans-serif;
     font-size: 58px;
     font-style: normal;
     font-weight: 500;
@@ -88,7 +87,7 @@
 }
 .headerTextH3{
     color: #FFF;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -98,7 +97,7 @@
 .headerTextBtn{
     margin-top: 3%;
     color: #FFF;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -119,15 +118,53 @@
 /*----------section2-----------------------*/
 .section2{
     height: 63vh;
-    background-color: violet;
-    border: 2px solid;
-    border-color: black;
+    background-image: url(images/Section2Bgr.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }
+.section2MainDiv{
+    height: 100%;
+    margin: 0 28%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#section2Ico{
+    justify-content: space-evenly;
+    margin: 4% 12%;
+}
+div.section2MainDiv>div.phone{
+    justify-content: center;
+    margin-top: 4%;
+}
+.section2MainDivH2{
+    color: #FFF;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+.followUs{
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    justify-content: center;
+    margin-top: 8%;
+}
+/*----------section3-----------------------*/
 .section3{
     height: 100vh;
     background-color: violet;
-    border: 2px solid;
-    border-color: black;
+
 }
 /*----------footer--------------------------*/
 .footer{
@@ -148,7 +185,7 @@
 .footerInfoMenuColum{
     height: 85%;
     width: 20%;
-    margin: 2% 5% 0% 2.5%;
+    margin: 2% 5% 0 2.5%;
     /*background-color: red;*/
 
 }
@@ -160,7 +197,7 @@
     justify-content: left;
     align-items: center;
     color: #FFF;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -168,7 +205,7 @@
 }
 .whiteText{
     color: #FFF;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -177,7 +214,7 @@
 }
 .footerInfoMenuColumHeadliner{
     color: #FFF;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -186,7 +223,7 @@
 }
 .whiteBtnFooter{
     color: #FFF;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -196,7 +233,7 @@
 }
 .whiteBtnFooter:hover{
     color: #FFF;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -208,7 +245,7 @@
     height: 25%;
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
