@@ -115,6 +115,14 @@
     border: 2px solid;
     border-color: black;
 }
+.section1Offer{
+    height: 44%;
+    background-color: pink;
+}
+.section1Gallery{
+    height: 56%;
+    background-color: green;
+}
 /*----------section2-----------------------*/
 .section2{
     height: 63vh;
@@ -163,8 +171,86 @@ div.section2MainDiv>div.phone{
 /*----------section3-----------------------*/
 .section3{
     height: 100vh;
-    background-color: violet;
-
+}
+.section3TextSpace{
+    height: 33%;
+}
+#section3H2{
+    color: black;
+    margin-top: 14%;
+}
+.section3SmallText{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.7;
+    text-align: center;
+    margin: 2% 28%;
+}
+.section3CardsSpace{
+    height: 67%;
+    display: flex;
+    justify-content: center;
+}
+.section3Cards{
+    width: 25%;
+    height: 80%;
+    margin: 0 1.5%;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.20);
+}
+.section3CardsImage1{
+    height: 56%;
+    border-radius: 20px 20px 0 0;
+    background-image:  url(images/Sect3Card1.jpeg);
+    background-size: cover;
+    background-position: right;
+}
+.section3CardsImage2{
+    height: 56%;
+    border-radius: 20px 20px 0 0;
+    background-image:  url(images/Sect3Card2.jpeg);
+    background-size: cover;
+    background-position: right;
+}
+.section3CardsImage3{
+    height: 56%;
+    border-radius: 20px 20px 0 0;
+    background-image:  url(images/Sect3Card3.jpeg);
+    background-size: cover;
+    background-position: right;
+}
+.section3CardsH4{
+    color: #000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin: 2% 6%;
+}
+.section3CardsP{
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.7;
+    margin: 2% 6%;
+}
+.section3CardsLearnMore{
+    text-decoration: none;
+    color: #FF4B32;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    margin: 2% 6%;
 }
 /*----------footer--------------------------*/
 .footer{
